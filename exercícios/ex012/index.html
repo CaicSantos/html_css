@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Esse vídio está hospedado no meu próprio servidor</p>
+
+    <video src="midia/meu-vidio.mp4.mp4"  width="300" controls></video>
+
+    <video width="500" poster="imagem/flamengo.jpg" controls>
+        <source src="midia/meu-vidio.mp4.mp4" type="vidio/mp4">
+        <source src="midia/Meu-Vidio.m4v.mkv" type="vidio/mp4">
+        <source src="midia/Meu-Vidio.webm.webm" type="vidio/webm">
+        <p>seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IaRYwEECq-E?si=PxQHVUTvGLy5NEOp" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
