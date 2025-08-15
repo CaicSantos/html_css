@@ -31,29 +31,29 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2">Ária</th>
-                <th rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th scope="col" rowspan="2">Ária</th>
+                <th scope="col" rowspan="2">Disciplinas</th>
+                <th scope="col" colspan="2">Notas</th>
+                <th scope="colgroup" rowspan="2">Média</th>
             </tr>
 
             <tr>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
             </tr>
         </thead>
 
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
-                <td>Mat</td>
+                <th scope="rowgroup" rowspan="4">Exatas</th>
+                <td scope="row">Mat</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
             </tr>
 
              <tr>
-                <td>Fís</td>
+                <td scope="row">Fís</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
@@ -74,7 +74,7 @@
             </tr>
 
             <tr>
-                <th colspan="4" class="z">Média de Exatas</th>
+                <th scope="row" colspan="4" class="z">Média de Exatas</th>
                 <td class="z">0</td>
             </tr>
 
