@@ -3,41 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alinhamentos</title>
+    <title>Fontes Externas</title>
     <style>
+        @font-face {
+            font-family: 'Love';
+            src: url('fontes/love story ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+             Tipos de format()
+             - opentype (otf)
+             - truetype (ttf) --> existem fontes opentype que são ttf, tem que pesquisar pra saber.
+             - embedded-opentype
+             - truetype-aat (Apple Advenced Typography)
+             - svg
+            */
+        }
         body{
-            font:normal 16px Arial, Verdana, serif;
-            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         h1{
-            text-align: center;
-        }
-
-        h2{
-            text-align: right;
-        }
-
-        p{
-            text-align: justify;
-            text-indent: 30px;
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
         }
     </style>
 </head>
 <body>
-    <h1>Tipos de Alinhamentos</h1>
-    <h2>Subtítulo</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eaque recusandae, architecto officiis nihil similique
-    consectetur, eveniet quaerat ducimus quod deserunt? Expedita accusamus velit dolorem mollitia nulla reiciendis explicabo
-    praesentium!Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, quam aliquam! Dolores, neque fuga
-    nulla quia distinctio saepe quod facilis culpa eaque sunt voluptates possimus nihil ut dicta eum nobis. Lorem ipsum dolor
-    sit amet consectetur, adipisicing elit. Eius, voluptas et voluptates facilis a tenetur recusandae? Officiis vitae placeat
-    blanditiis velit nulla ab impedit laboriosam dignissimos. Inventore consequatur nemo fugiat.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eaque recusandae, architecto officiis nihil similique
-        consectetur, eveniet quaerat ducimus quod deserunt? Expedita accusamus velit dolorem mollitia nulla reiciendis explicabo
-        praesentium!Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, quam aliquam! Dolores, neque fuga
-        nulla quia distinctio saepe quod facilis culpa eaque sunt voluptates possimus nihil ut dicta eum nobis. Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Eius, voluptas et voluptates facilis a tenetur recusandae? Officiis vitae placeat
-        blanditiis velit nulla ab impedit laboriosam dignissimos. Inventore consequatur nemo fugiat.</p>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos sit tempora quis illum dolores minima,
+    ullam autem libero architecto quidem a perspiciatis itaque reprehenderit, in ut natus, tempore nobis ea?</p>
+
 </body>
 </html>
