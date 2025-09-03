@@ -7,7 +7,6 @@ div.conteiner {
 }
 
 div.caixa1{
-    text-align: center;
     background-color: red;
     grid-row-start: 1;
     grid-row-end: 2;
